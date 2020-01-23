@@ -152,7 +152,7 @@ a
 .mobile-wrapper
   height: 100%
   width: 100%
-  max-width: 375px
+  max-width: 1170px
   margin: 0 auto
   position: relative
   display: flex
@@ -262,11 +262,11 @@ input
   display: flex
   align-items: flex-start
   justify-content: space-between
-  max-width: 375px
+  max-width: 1170px
   height: 87px
   padding: 12px 65px 34px
   background: url("../img/bg.svg") no-repeat center
-    size: contain
+    size: cover
   a
     color: #9ACFFF
     font-size: 12px
@@ -331,7 +331,7 @@ input
   left: 50%
   transform: translate(-50%,0)
   width: 100%
-  max-width: 375px
+  max-width: 1170px
   z-index: 8
   display: flex
   align-items: center
@@ -459,8 +459,10 @@ input
 
 .content-wrapper__details
   padding: 0 0 24px
+  overflow-y: visible
   .box-content
-    padding: 30px 16px 0
+    padding: 30px 16px 70px
+    height: 100%
     &:before
       display: none
 
@@ -472,10 +474,14 @@ input
   bottom: 0
   left: 50%
   transform: translate(-50%, 0)
-  max-width: 375px
+  max-width: 1170px
   width: 100%
   padding: 24px 16px 38px
   background: #ffffff
+
+.text-scroll
+  height: 100%
+  overflow-y: auto
 
 
 
